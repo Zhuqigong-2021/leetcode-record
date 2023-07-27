@@ -43,6 +43,9 @@ class Solution {
 
 this is easy solution to come up with
 
+- Time complexity: O(n^2)
+- Space complexity: O(1)
+
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -62,6 +65,9 @@ class Solution {
 # Solution 2
 
 hashmap
+
+- Time complexity: O(n)
+- Space complexity: O(n)
 
 ```java
 
