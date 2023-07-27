@@ -89,3 +89,33 @@ class Solution {
 }
 
 ```
+
+# Summary
+
+## polymorphism
+
+Map<Integer,Integer> map = new HashMap<>();
+
+## Hashmap most commonly used methods:
+
+int size()
+Returns the number of key-value mappings in this map.
+
+Collection<V> values()
+Returns a Collection view of the values contained in this map.
+
+| return              | method                                          | description                                                                                                                   |
+| ------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| int                 | size()                                          | Returns the number of key-value mappings in this map.                                                                         |
+| Collection<V>       | values()                                        | Returns a Collection view of the values contained in this map.                                                                |
+| boolean             | isEmpty()                                       | Returns true if this map contains no key-value mappings.                                                                      |
+| boolean             | containsKey(Object key)                         | Returns true if this map contains a mapping for the specified key.                                                            |
+| boolean             | containsValue(Object value)                     | Returns true if this map maps one or more keys to the specified value.                                                        |
+| V                   | get(Object key)                                 | Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.                  |
+| V                   | getOrDefault(Object key, V defaultValue)        | Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.          |
+| V                   | put(K key, V value)                             | Associates the specified value with the specified key in this map.                                                            |
+| V                   | remove(Object key)                              | Removes the mapping for the specified key from this map if present.                                                           |
+| boolean             | remove(Object key, Object value)                | Removes the entry for the specified key only if it is currently mapped to the specified value.                                |
+| Set<Map.Entry<K,V>> | entrySet()                                      | Returns a Set view of the mappings contained in this map.                                                                     |
+| Set<K>              | keySet()                                        | Returns a Set view of the keys contained in this map.                                                                         |
+| void                | forEach(BiConsumer<? super K,? super V> action) | Performs the given action for each entry in this map until all entries have been processed or the action throws an exception. |
